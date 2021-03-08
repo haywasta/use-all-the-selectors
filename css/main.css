@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #fdf6e3;
 }
@@ -24,4 +32,20 @@ ul > nav {
 
 .dfn .wrapper {
   background-color: #b58900;
+}
+
+strong .dfn {
+  color: #fff;
+}
+
+a {
+  background-color: #719e07;
+}
+
+.external {
+  background-color: #2694d8;
+}
+
+ol + li {
+  color: #719e47;
 }
